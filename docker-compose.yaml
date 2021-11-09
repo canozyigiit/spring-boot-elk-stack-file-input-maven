@@ -1,0 +1,69 @@
+version: '3'
+
+services:
+    logger:
+         image:  canozyigit/elkstackmavenapp
+         ports:
+             - "8080:8080"
+         volumes:
+           - ./logs:/logs:rw
+         links:
+             - "logstash:logstash"
+         depends_on:
+             - kibana
+    filebeat:
+        image: canozyigit/filebeatmaven
+
+        links:
+            - "logstash:logstash"
+        volumes:
+            - /var/lib/docker:/var/lib/docker:ro
+            - /var/run/docker.sock:/var/run/docker.sock
+            - ./logs:/logs:rw
+
+
+    logstash:
+         image: canozyigit/logstashmaven
+         ports:
+             - "5044:5044"
+         volumes:
+           - ./logs:/logs:rw
+         links:
+              - "elasticsearch:elasticsearch"
+         depends_on:
+             - elasticsearch
+
+    elasticsearch:
+         image: elasticsearch:6.8.7
+         environment:
+           - bootstrap.memory_lock=true
+           - ES_JAVA_OPTS=-Xms512m -Xmx512m
+           - discovery.type=single-node
+           - http.cors.enabled=true
+           - http.cors.allow-origin=*
+         volumes:
+             - ./logs:/logs:rw
+
+         ports:
+             - "9200:9200"
+             - "9300:9300"
+
+         ulimits:
+           memlock:
+             soft: -1
+             hard: -1
+
+    kibana:
+         image: kibana:6.8.7
+         environment:
+            SERVER_NAME: kibana.example.org
+            ELASTICSEARCH_URL: http://elasticsearch:9200
+         links:
+            - "elasticsearch:elasticsearch"
+         volumes:
+           - ./logs:/logs:rw
+         ports:
+             - "5601:5601"
+         depends_on:
+             - elasticsearch
+

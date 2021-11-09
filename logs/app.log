@@ -1,0 +1,35 @@
+2021-51-09 14:51:23.443 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Starting SpringBootElkStackMavenApplication using Java 11.0.12 on 2064nbs with PID 14728 (D:\spring-boot-elk-stack-maven\target\classes started by Casper in D:\spring-boot-elk-stack-maven)
+2021-51-09 14:51:23.457 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - No active profile set, falling back to default profiles: default
+2021-51-09 14:51:25.302 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Started SpringBootElkStackMavenApplication in 2.475 seconds (JVM running for 5.136)
+2021-51-09 14:51:35.903 [http-nio-8080-exec-2] INFO  com.canozyigit.springbootelkstackmaven.app.Services - asdasd
+2021-51-09 14:51:35.904 [http-nio-8080-exec-2] INFO  com.canozyigit.springbootelkstackmaven.app.Services - dasdasdasd
+2021-51-09 14:51:35.905 [http-nio-8080-exec-2] INFO  com.canozyigit.springbootelkstackmaven.app.Services - 123123
+2021-52-09 14:52:06.232 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplicationTests - Starting SpringBootElkStackMavenApplicationTests using Java 11.0.12 on 2064nbs with PID 11740 (started by Casper in D:\spring-boot-elk-stack-maven)
+2021-52-09 14:52:06.249 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplicationTests - No active profile set, falling back to default profiles: default
+2021-52-09 14:52:08.896 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplicationTests - Started SpringBootElkStackMavenApplicationTests in 3.5 seconds (JVM running for 5.999)
+2021-59-09 14:59:41.949 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Starting SpringBootElkStackMavenApplication using Java 11.0.12 on 2064nbs with PID 10728 (D:\spring-boot-elk-stack-maven\target\classes started by Casper in D:\spring-boot-elk-stack-maven)
+2021-59-09 14:59:41.959 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - No active profile set, falling back to default profiles: default
+2021-59-09 14:59:43.905 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Started SpringBootElkStackMavenApplication in 2.488 seconds (JVM running for 5.599)
+2021-59-09 14:59:57.062 [http-nio-8080-exec-1] INFO  com.canozyigit.springbootelkstackmaven.app.Services - asdasd
+2021-59-09 14:59:57.063 [http-nio-8080-exec-1] INFO  com.canozyigit.springbootelkstackmaven.app.Services - dasdasdasd
+2021-59-09 14:59:57.064 [http-nio-8080-exec-1] INFO  com.canozyigit.springbootelkstackmaven.app.Services - 123123
+2021-00-09 15:00:01.304 [http-nio-8080-exec-3] INFO  com.canozyigit.springbootelkstackmaven.app.Services - Info log
+2021-00-09 15:00:01.305 [http-nio-8080-exec-3] WARN  com.canozyigit.springbootelkstackmaven.app.Services - Hey, This is a warning!
+2021-00-09 15:00:01.306 [http-nio-8080-exec-3] ERROR com.canozyigit.springbootelkstackmaven.app.Services - Oops! We have an Error. OK
+2021-00-09 15:00:01.306 [http-nio-8080-exec-3] FATAL com.canozyigit.springbootelkstackmaven.app.Services - Damn! Fatal error. Please fix me.
+2021-24-09 15:24:16.386 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Starting SpringBootElkStackMavenApplication using Java 11.0.12 on 2064nbs with PID 12996 (D:\spring-boot-elk-stack-maven\target\classes started by Casper in D:\spring-boot-elk-stack-maven)
+2021-24-09 15:24:16.400 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - No active profile set, falling back to default profiles: default
+2021-24-09 15:24:18.072 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Started SpringBootElkStackMavenApplication in 2.38 seconds (JVM running for 5.052)
+2021-24-09 15:24:59.022 [http-nio-8080-exec-1] INFO  com.canozyigit.springbootelkstackmaven.app.Services - Info log
+2021-24-09 15:24:59.023 [http-nio-8080-exec-1] WARN  com.canozyigit.springbootelkstackmaven.app.Services - Hey, This is a warning!
+2021-24-09 15:24:59.024 [http-nio-8080-exec-1] ERROR com.canozyigit.springbootelkstackmaven.app.Services - Oops! We have an Error. OK
+2021-24-09 15:24:59.024 [http-nio-8080-exec-1] FATAL com.canozyigit.springbootelkstackmaven.app.Services - Damn! Fatal error. Please fix me.
+2021-26-09 15:26:43.541 [http-nio-8080-exec-5] INFO  com.canozyigit.springbootelkstackmaven.app.Services - asdasd
+2021-26-09 15:26:43.541 [http-nio-8080-exec-5] INFO  com.canozyigit.springbootelkstackmaven.app.Services - dasdasdasd
+2021-26-09 15:26:43.542 [http-nio-8080-exec-5] INFO  com.canozyigit.springbootelkstackmaven.app.Services - 123123
+2021-39-09 15:39:06.228 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Starting SpringBootElkStackMavenApplication using Java 11.0.12 on 2064nbs with PID 8516 (D:\spring-boot-elk-stack-maven\target\classes started by Casper in D:\spring-boot-elk-stack-maven)
+2021-39-09 15:39:06.242 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - No active profile set, falling back to default profiles: default
+2021-39-09 15:39:07.924 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplication - Started SpringBootElkStackMavenApplication in 2.292 seconds (JVM running for 4.888)
+2021-41-09 15:41:23.542 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplicationTests - Starting SpringBootElkStackMavenApplicationTests using Java 11.0.12 on 2064nbs with PID 1144 (started by Casper in D:\spring-boot-elk-stack-maven)
+2021-41-09 15:41:23.562 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplicationTests - No active profile set, falling back to default profiles: default
+2021-41-09 15:41:26.670 [main] INFO  com.canozyigit.springbootelkstackmaven.SpringBootElkStackMavenApplicationTests - Started SpringBootElkStackMavenApplicationTests in 3.622 seconds (JVM running for 6.248)

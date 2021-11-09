@@ -1,0 +1,33 @@
+filebeat.inputs:
+    - type: log
+      enabled: true
+      paths:
+        - /logs/*.log
+#      containers:
+#        ids:
+#          - "2eca92d9520bfa2caa0aa8112f8a720bd713af59dccad8bfeb6c851e436528d5"
+#          - id of logger app
+        
+   
+processors:
+    - add_docker_metadata:
+        host: "unix:///var/run/docker.sock"
+   
+filebeat.config.modules:
+    path: ${path.config}/modules.d/*.yml
+    reload.enabled: false
+   
+output.logstash:
+    hosts: ["logstash:5044"]
+   
+log files:
+logging.level: info
+logging.to_files: false
+logging.to_syslog: false
+loggins.metrice.enabled: false
+logging.files:
+    path: /var/log/filebeat
+    name: filebeat
+    keepfiles: 7
+    permissions: 0644
+ssl.verification_mode: none
